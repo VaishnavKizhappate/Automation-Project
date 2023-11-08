@@ -18,8 +18,8 @@ public class LumaRegtest extends LumaUrl{
 	
 	public void test() throws InterruptedException, IOException
 	{
-		//LumaRegpage ob=new LumaRegpage(driver);
-		//ob.setValues();
+		LumaRegpage ob=new LumaRegpage(driver);
+		ob.setValues();
 		
 		LumaLoginpage ob1=new LumaLoginpage(driver);
 		ob1.Login();
